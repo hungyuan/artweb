@@ -42,7 +42,11 @@ $totalRows_RecSociety = mysql_num_rows($RecSociety);
 
 				<?php while($row_RecPeople = mysql_fetch_assoc($RecPeople)){ ?> //取出People分類資料
 					<li class="<?php if (isset($ryder_cat) && $row_RecPeople['c_id'] == $ryder_cat): ?>current<?php endif ?>">
+					
+					<!--
 					<a href="list.php?cat=<?= $row_RecPeople['c_id'] ?>"><?= $row_RecPeople['c_title'] ?></a>
+					-->	
+					<a href="#"><?= $row_RecPeople['c_menu'] ?></a>
 					</li>
 				<?php } ?>
 			</ul>
