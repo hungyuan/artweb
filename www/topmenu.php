@@ -47,7 +47,7 @@ $totalRows_RecSociety = mysql_num_rows($RecSociety);
 										
 				
 					
-							<li class="subs">
+							<li>
 							<a href="list.php?cat=<?= $row_RecPeople['c_id'] ?>"><?= $row_RecPeople['c_title'] ?></a>
 							</li>
 			

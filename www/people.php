@@ -41,7 +41,6 @@ $class = 'is-blue';
 			<li><img src="images/slider-1.jpg"></li>
 			<li><img src="images/slider-2.jpg"></li>
 			<li><img src="images/slider-3.jpg"></li>
-
 		</ul>
 
 		<div class="prev image-2x"></div>
@@ -272,6 +271,10 @@ $class = 'is-blue';
 			prevText: '<img src="images/prev-blue.png"><img src="images/prev-blue@2x.png" width="50">',
 			nextText: '<img src="images/next-blue.png"><img src="images/next-blue@2x.png" width="50">',
 			onSlideBefore: function () {}
+		});
+
+		$(function(){
+			$(".subs").hide();
 		});
 	})
 </script>
