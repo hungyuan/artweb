@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecUser" value="name:user_id;datatype:int,name:user_name;datatype:string,name:user_level;datatype:int,name:user_limit;datatype:int,name:user_active;datatype:int" />
+	<infoitem key="UD_RecLevelAuthority" value="name:a_id;datatype:int,name:a_title;datatype:string,name:a_1;datatype:int,name:a_2;datatype:int,name:a_3;datatype:int,name:a_4;datatype:int,name:a_5;datatype:int,name:a_6;datatype:int,name:a_7;datatype:int,name:a_8;datatype:int,name:a_9;datatype:int,name:a_10;datatype:int,name:a_11;datatype:int,name:a_12;datatype:int,name:a_13;datatype:int,name:a_14;datatype:int,name:a_15;datatype:int,name:a_16;datatype:int" />
+</info>

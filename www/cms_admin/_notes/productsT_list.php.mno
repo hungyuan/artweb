@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecProductsT" value="name:term_id;datatype:int,name:name;datatype:string,name:slug;datatype:string,name:term_group;datatype:int,name:term_type;datatype:int,name:term_active;datatype:int,name:term_sort;datatype:int,name:term_taxonomy_id;datatype:int,name:taxonomy;datatype:string,name:description;datatype:blob,name:parent;datatype:int,name:count;datatype:int" />
+	<infoitem key="UD_RecImage" value="name:file_d_id;datatype:int,name:file_id;datatype:int,name:file_type;datatype:blob,name:file_name;datatype:blob,name:file_content;datatype:blob,name:file_title;datatype:blob,name:file_link1;datatype:blob,name:file_link2;datatype:blob,name:file_link3;datatype:blob,name:file_link4;datatype:blob,name:file_link5;datatype:blob,name:file_show_type;datatype:int" />
+</info>

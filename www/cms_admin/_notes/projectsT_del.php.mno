@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecProjectsT" value="name:term_id;datatype:int,name:name;datatype:string,name:slug;datatype:string,name:term_group;datatype:int,name:term_type;datatype:int,name:term_active;datatype:int,name:term_sort;datatype:int" />
+</info>

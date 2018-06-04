@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecNewsC" value="name:c_id;datatype:int,name:c_title;datatype:blob,name:c_content;datatype:blob,name:c_class;datatype:blob,name:c_link;datatype:blob,name:c_level;datatype:int,name:c_active;datatype:int,name:c_parent;datatype:blob,name:c_sort;datatype:int" />
+	<infoitem key="UD_RecVideoC" value="name:c_id;datatype:int,name:c_title;datatype:blob,name:c_content;datatype:blob,name:c_class;datatype:blob,name:c_link;datatype:blob,name:c_level;datatype:int,name:c_active;datatype:int,name:c_parent;datatype:blob,name:c_sort;datatype:int" />
+	<infoitem key="UD_RecImage" value="name:file_d_id;datatype:int,name:file_id;datatype:int,name:file_type;datatype:blob,name:file_name;datatype:blob,name:file_content;datatype:blob,name:file_title;datatype:blob,name:file_link1;datatype:blob,name:file_link2;datatype:blob,name:file_link3;datatype:blob,name:file_link4;datatype:blob,name:file_link5;datatype:blob,name:file_show_type;datatype:int" />
+</info>

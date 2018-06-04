@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecBrands" value="name:c_id;datatype:int,name:c_title;datatype:blob,name:c_content;datatype:blob,name:c_class;datatype:blob,name:c_link;datatype:blob,name:c_level;datatype:int,name:c_active;datatype:int,name:c_parent;datatype:blob,name:c_sort;datatype:int" />
+	<infoitem key="UD_RecBrandSeries" value="name:c_id;datatype:int,name:c_title;datatype:blob,name:c_content;datatype:blob,name:c_class;datatype:blob,name:c_link;datatype:blob,name:c_level;datatype:int,name:c_active;datatype:int,name:c_parent;datatype:blob,name:c_sort;datatype:int" />
+	<infoitem key="UD_RecProductsT" value="name:term_id;datatype:int,name:name;datatype:string,name:slug;datatype:string,name:term_group;datatype:int,name:term_type;datatype:int,name:term_active;datatype:int,name:term_sort;datatype:int,name:term_taxonomy_id;datatype:int,name:taxonomy;datatype:string,name:description;datatype:blob,name:parent;datatype:int,name:count;datatype:int" />
+</info>

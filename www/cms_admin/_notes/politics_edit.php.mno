@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecNewsC" value="name:c_id;datatype:int,name:c_title;datatype:blob,name:c_content;datatype:blob,name:c_class;datatype:blob,name:c_link;datatype:blob,name:c_level;datatype:int,name:c_active;datatype:int,name:c_parent;datatype:blob,name:c_sort;datatype:int" />
+	<infoitem key="UD_RecPoliticsC" value="name:c_id;datatype:int,name:c_title;datatype:blob,name:c_content;datatype:blob,name:c_class;datatype:blob,name:c_link;datatype:blob,name:c_level;datatype:int,name:c_active;datatype:int,name:c_parent;datatype:blob,name:c_sort;datatype:int" />
+</info>
