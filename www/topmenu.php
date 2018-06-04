@@ -21,6 +21,8 @@ $RecSociety = mysql_query($query_RecSociety, $connect2data) or die(mysql_error()
 $totalRows_RecSociety = mysql_num_rows($RecSociety);
 ?>
 
+
+
 <div class="topmenuOutWrap m-outWrap">
 	<div class="logo image-2x"><a href="index.php"><img src="images/topmenu-logo.png"><img src="images/topmenu-logo@2x.png" width="230"></a></div>
 
@@ -35,21 +37,23 @@ $totalRows_RecSociety = mysql_num_rows($RecSociety);
 		</ul>
 
 		<?php if ($now=='people'): ?>
-			<ul class="subMenuList">
-				<!--
+			
+			<ul class="subs">
+			  <!--
         <li class="<?php if ($now == 'people' && !isset($ryder_cat)): ?>current<?php endif ?>"><a href="people.php">關於本網站</a></li>
         -->
-
-				<?php while($row_RecPeople = mysql_fetch_assoc($RecPeople)){ ?> //取出People分類資料
-					<li class="<?php if (isset($ryder_cat) && $row_RecPeople['c_id'] == $ryder_cat): ?>current<?php endif ?>">
+			
+				<?php while($row_RecPeople = mysql_fetch_assoc($RecPeople)){ ?> 
+										
+				
 					
-					<!--
-					<a href="list.php?cat=<?= $row_RecPeople['c_id'] ?>"><?= $row_RecPeople['c_title'] ?></a>
-					-->	
-					<a href="#"><?= $row_RecPeople['c_menu'] ?></a>
-					</li>
+							<li class="subs">
+							<a href="list.php?cat=<?= $row_RecPeople['c_id'] ?>"><?= $row_RecPeople['c_title'] ?></a>
+							</li>
+			
 				<?php } ?>
 			</ul>
+		
 		<?php endif ?>
 
 		<?php if ($now=='home'): ?>
@@ -60,7 +64,7 @@ $totalRows_RecSociety = mysql_num_rows($RecSociety);
         <li class="<?php if ($now == 'home' && !isset($ryder_cat)): ?>current<?php endif ?>"><a href="home.php">關於本網站</a></li>
         -->
 
-				<?php while($row_RecHome = mysql_fetch_assoc($RecHome)){ ?> //取出Home分類資料
+				<?php while($row_RecHome = mysql_fetch_assoc($RecHome)){ ?> 
 					<li class="<?php if (isset($ryder_cat) && $row_RecHome['c_id'] == $ryder_cat): ?>current<?php endif ?>">
 					<a href="list.php?cat=<?= $row_RecHome['c_id'] ?>"><?= $row_RecHome['c_title'] ?></a>
 					</li>
@@ -73,7 +77,7 @@ $totalRows_RecSociety = mysql_num_rows($RecSociety);
         <!--
         <li class="<?php if ($now == 'society' && !isset($ryder_cat)): ?>current<?php endif ?>"><a href="society.php">關於本網站</a></li>
         -->
-				<?php while($row_RecSociety = mysql_fetch_assoc($RecSociety)){ ?> //取出Society分類資料
+				<?php while($row_RecSociety = mysql_fetch_assoc($RecSociety)){ ?> 
 					<li class="<?php if (isset($ryder_cat) && $row_RecSociety['c_id'] == $ryder_cat): ?>current<?php endif ?>">
 					<a href="list.php?cat=<?= $row_RecSociety['c_id'] ?>"><?= $row_RecSociety['c_title'] ?></a>
 					</li>
