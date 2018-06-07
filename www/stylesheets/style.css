@@ -354,19 +354,6 @@ body.is-orange .detailWrap .title {
   color: #f2a203;
 }
 
-ul.subs {
-  width: 180px;
-  background-color: #f2a203;
-}
-
-ul.subs li {
-  background-color: #f2a203;
-}
-ul.subs li a {
-  display: block;
-  font-size: 14px;
-}
-
 .index-preloadPage {
   width: 100%;
   height: 100%;
@@ -614,6 +601,14 @@ ul.subs li a {
 .topmenuList .current {
   color: #13bbe2;
   border-bottom: 1px solid #13bbe2;
+}
+
+.mainMenu {
+  width: 180px;
+  background-color: #8603f2;
+  vertical-align: middle;
+  padding: 0 19px 0 15px;
+  border-right: 1px solid #727171;
 }
 
 .subMenuList {

@@ -38,15 +38,12 @@ $totalRows_RecSociety = mysql_num_rows($RecSociety);
 
 		<?php if ($now=='people'): ?>
 			
-			<ul class="subs">
+			<ul class="mainMenu">
 			  <!--
         <li class="<?php if ($now == 'people' && !isset($ryder_cat)): ?>current<?php endif ?>"><a href="people.php">關於本網站</a></li>
         -->
 			
 				<?php while($row_RecPeople = mysql_fetch_assoc($RecPeople)){ ?> 
-										
-				
-					
 							<li>
 							<a href="list.php?cat=<?= $row_RecPeople['c_id'] ?>"><?= $row_RecPeople['c_title'] ?></a>
 							</li>

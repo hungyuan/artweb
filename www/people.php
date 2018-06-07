@@ -274,7 +274,8 @@ $class = 'is-blue';
 		});
 
 		$(function(){
-			$(".subs").hide();
+			$(".mainMenu").hide();
+			
 		});
 	})
 </script>
